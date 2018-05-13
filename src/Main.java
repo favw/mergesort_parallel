@@ -13,7 +13,7 @@ public class Main {
         }
 
 
-        // 4 Threaded
+        // 4 Threads
         ParallelMergeSort.numberOfThreads = 4;
         long timeStart = System.nanoTime(); //Time measurement
         ParallelMergeSort.mergeSort(randomArray); //Initiates sorting
